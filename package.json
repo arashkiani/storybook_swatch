@@ -1,6 +1,6 @@
 {
   "name": "@arash_k/storybook_swatch",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "color swatch for storybook",
   "main": "dist/index.js",
   "scripts": {
