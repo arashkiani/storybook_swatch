@@ -1,0 +1,38 @@
+{
+  "name": "storybook_swatch",
+  "version": "0.0.0",
+  "description": "color swatch for storybook",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "standard-version",
+    "build": "rimraf dist/ && babel ./src --out-dir dist/ --ignore ./node_modules,./.babelrc,./package.json,./npm-debug.log --copy-files"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arashkiani/storybook_swatch.git"
+  },
+  "keywords": [
+    "storybook",
+    "swatch"
+  ],
+  "author": "arash kiani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arashkiani/storybook_swatch/issues"
+  },
+  "homepage": "https://github.com/arashkiani/storybook_swatch#readme",
+  "peerDependencies": {
+    "react": "*"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-transform-arrow-functions": "^7.2.0",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/register": "^7.0.0",
+    "eslint": "^5.12.0",
+    "rimraf": "^2.6.3",
+    "standard-version": "^4.4.0"
+  }
+}
