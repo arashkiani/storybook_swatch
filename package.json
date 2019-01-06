@@ -31,8 +31,14 @@
     "@babel/plugin-transform-arrow-functions": "^7.2.0",
     "@babel/preset-env": "^7.2.3",
     "@babel/register": "^7.0.0",
+    "@emotion/styled": "^10.0.5",
+    "@storybook/addons": "^4.1.4",
     "eslint": "^5.12.0",
+    "react": "^16.7.0",
     "rimraf": "^2.6.3",
     "standard-version": "^4.4.0"
+  },
+  "dependencies": {
+    "react-color": "^2.17.0"
   }
 }
